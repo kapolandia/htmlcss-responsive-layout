@@ -24,3 +24,83 @@ img{
     padding: 10px 18px;
     font-size: 18px;
 }
+
+/* ALIGN */
+.center{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bottom{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* ROW */
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+/* COLUMN */
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+/* WIDTH */
+
+.w-30{
+    width: 30%;
+}
+
+.w-33{
+    width: 33%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-60{
+    width: 60%;
+}
+
+.w-66{
+    width: 66%;
+}
+
+.w-100{
+    width: 100%;
+}
+
+/* PADDING */
+
+.padding-top-20{
+    padding-top: 20px;
+}
+
+.padding-btm-0{
+    padding-bottom: 0;
+}
+
+.padding-btm-30{
+    padding-bottom: 30px;
+}
+
+.padding-20{
+    padding: 20px;
+}
+
+/* MARGIN */
+
+.margin-top-30{
+    margin-top: 30px;
+}
+
+.margin-top-50{
+    margin-top: 70px;
+}
