@@ -1,0 +1,61 @@
+@import url(./utility.css);
+
+body{
+    font-family: "PT Sans", sans-serif;
+}
+
+/* HEADER */
+
+header{
+    background-color: #1E84FD;
+    padding: 20px;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+/* BUTTONS */
+
+.btn-white{
+    background-color: #fff;
+    color: black;
+    border-radius: 20px;
+    font-family: "PT Sans", sans-serif;
+}
+
+
+/* QUERY */
+
+@media screen and (min-width: 768.1px) {
+    .container{
+        max-width: 1180px;
+        margin: 0 auto;
+    }
+
+    .ham-menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav{
+        display: none;
+    }
+
+    .ham-menu{
+        color: #fff;
+        font-size: 25px;
+    }
+}
+
