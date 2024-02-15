@@ -27,6 +27,7 @@ header a{
 
 /* FONTS */
 
+
 h4{
     color: #1E84FD;
     font-size: 25px;
@@ -52,6 +53,13 @@ h4{
     background-color: #9792E4;
     border-radius: 100%;
     padding: 15px 18px;
+}
+
+.btn-purple2{
+    background-color: #9792E4;
+    border-radius: 20px;
+    padding: 10px 40px;
+    color: #fff;
 }
 
 .fa-brands{
@@ -135,6 +143,82 @@ h4{
     max-width: 80%;
 }
 
+/* PLANNING */
+
+#testimonials{
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#testimonials p{
+    font-size: 20px;
+}
+
+#testimonials h2{
+    color: #9792E4;
+    font-size: 48px;
+}
+
+.test-pic img{
+    clip-path: circle();
+    max-width: 300px;
+}
+
+.purple-card{
+    background-color: #9792E4;
+    border-radius: 40px;
+    padding: 20px;
+    padding-left: 0;
+}
+
+.purple-card p{
+    text-align: left;
+    line-height: 2;
+}
+
+.purple-card h5{
+    text-align: left;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* BENEFITS */
+
+#benefits{
+    margin-top: 50px;
+    background-color: #9792E4;
+    padding: 20px;;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#benefits h1{
+    color: #9792e4;
+    font-size: 60px;
+}
+
+#benefits h4{
+    color: #9792e4;
+}
+
+#benefits h2{
+    color: #fff;
+    font-size: 48px;
+}
+
+.w-33-50-100{
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 30px;
+    width: calc(100% / 3 - 20px);
+    line-height: 1.7;
+    margin: 20px;
+    margin-left: 0;
+}
 
 /* QUERY */
 
@@ -194,6 +278,10 @@ h4{
     #planning h3{
         margin-top: 100px;
     }
+
+    .w-33-50-100:nth-child(3){
+        margin-right: 0;
+    }
    
 }
 
@@ -243,6 +331,19 @@ h4{
         justify-content: center;
         align-items: center;
     }
+
+    #testimonials h2{
+        color: #9792E4;
+        font-size: 40px;
+    }
+
+    .w-33-50-100{
+        width: calc(100% / 2 - 20px);
+    }
+
+    .w-33-50-100:nth-child(2n){
+        margin-right: 0;
+    }
       
 }
 
@@ -277,5 +378,32 @@ h4{
         width: 100%;
         justify-content: center;
         align-items: center;
+    }
+
+    #testimonials h2{
+        color: #9792E4;
+        font-size: 30px;
+    }
+
+    .purple-card{
+        background-color: #9792E4;
+        border-radius: 40px;
+        padding: 20px;
+    }
+    
+    .purple-card p{
+        text-align: center;
+        line-height: 2;
+    }
+    
+    .purple-card h5{
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .w-33-50-100{
+        width: 100%;
+        margin-right: 0;
     }
 }

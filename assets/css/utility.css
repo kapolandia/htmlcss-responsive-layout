@@ -25,6 +25,11 @@ img{
     font-size: 18px;
 }
 
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* ALIGN */
 .center{
     justify-content: center;
@@ -103,4 +108,12 @@ img{
 
 .margin-top-50{
     margin-top: 70px;
+}
+
+.margin-right-5{
+    margin-right: 5px;
+}
+
+.margin-left-5{
+    margin-left: 5px;
 }
