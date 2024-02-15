@@ -307,6 +307,27 @@ h4{
     font-size: 17px;
 }
 
+/* FOOTER */
+
+footer{
+    background-color: #333333;
+    padding: 20px;;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+footer p{
+    color: #fff;
+}
+
+footer a{
+    color: #9792e4;
+}
+
+footer a:visited{
+    color: #9792e4;
+}
+
 /* QUERY */
 
 @media screen and (min-width: 992.1px) {
