@@ -62,6 +62,14 @@ h4{
     color: #fff;
 }
 
+.btn-purple2{
+    background-color: #9792E4;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 16px;
+}
+
 .fa-brands{
     margin-right: 10px;
 }
@@ -193,6 +201,11 @@ h4{
     padding-bottom: 50px;
 }
 
+#benefits p{
+    color: #737373;
+}
+
+
 #benefits h1{
     color: #9792e4;
     font-size: 60px;
@@ -218,6 +231,42 @@ h4{
     line-height: 1.7;
     margin: 20px;
     margin-left: 0;
+}
+
+/* ABOUT US */
+#about-us{
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#about-us h1{
+    color: #9792e4;
+    font-size: 60px;
+}
+
+#about-us p{
+    font-size: 19px;
+    line-height: 2;
+    padding-right: 50px;
+}
+
+.w-70-60-100{
+    width: 70%;
+}
+
+.w-30-40-100{
+    width: 30%;
+}
+
+#about-us img{
+    clip-path: circle();
+    max-width: 300px;
+}
+
+#about-us h4{
+    color: #9792e4;
+    font-size: 30px;
 }
 
 /* QUERY */
@@ -344,6 +393,14 @@ h4{
     .w-33-50-100:nth-child(2n){
         margin-right: 0;
     }
+
+    .w-70-60-100{
+        width: 60%;
+    }
+
+    .w-30-40-100{
+        width: 40%;
+    }
       
 }
 
@@ -405,5 +462,14 @@ h4{
     .w-33-50-100{
         width: 100%;
         margin-right: 0;
+    }
+
+    .w-70-60-100{
+        width: 100%;
+    }
+
+    .w-30-40-100{
+        width: 100%;
+        margin-top: 100px;
     }
 }
