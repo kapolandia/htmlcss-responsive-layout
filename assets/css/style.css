@@ -16,6 +16,8 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 header a{
@@ -360,8 +362,15 @@ footer a:visited{
     .card{
         margin-top: 15px;
         margin-bottom: 15px;
-        margin-right: 20px;
         width: 33%;
+    }
+
+    .card:nth-child(1){
+        margin-right: 20px;
+    }
+
+    .card:nth-child(3){
+        margin-left: 20px;
     }
     
     .big-card{
@@ -391,6 +400,9 @@ footer a:visited{
         margin-right: 0;
     }
    
+    .btn-blue{
+        width: 40%;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -458,6 +470,15 @@ footer a:visited{
     }
 
     .w-30-40-100{
+        width: 40%;
+    }
+
+    #description-cards .column.bottom{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .btn-blue{
         width: 40%;
     }
       
@@ -530,5 +551,14 @@ footer a:visited{
     .w-30-40-100{
         width: 100%;
         margin-top: 100px;
+    }
+
+    #description-cards .column.bottom{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-blue{
+        width: 100%;
     }
 }
